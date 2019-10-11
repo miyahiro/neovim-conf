@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/export'
+let g:netrw_dirhist_5='/export/data'
+let g:netrw_dirhist_4='/export/data/texts'
+let g:netrw_dirhist_3='/export/data/texts/akutagawa'
+let g:netrw_dirhist_2='/export/git-repos/actlab-emotion-monitor/web_root/js'
+let g:netrw_dirhist_1='/export/git-repos/actlab-emotion-monitor/web_root'
