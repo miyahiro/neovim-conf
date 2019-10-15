@@ -2,10 +2,10 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
-set runtimepath+=$HOME/.vim
+set runtimepath+=$HOME/.config/nvim/plugins
 
 " Load Plugins.
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugins/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'jacoborus/tender.vim'
     Plug 'jonathanfilip/vim-lucius'

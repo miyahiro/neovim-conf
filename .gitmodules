@@ -1,3 +1,18 @@
 [submodule "typeshed"]
 	path = typeshed
 	url = https://github.com/python/typeshed.git
+[submodule "nvim/plugins/plugged/coc.nvim"]
+	path = nvim/plugins/plugged/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "nvim/plugins/plugged/gruvbox"]
+	path = nvim/plugins/plugged/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "nvim/plugins/plugged/lightline.vim"]
+	path = nvim/plugins/plugged/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "nvim/plugins/plugged/tender.vim"]
+	path = nvim/plugins/plugged/tender.vim
+	url = https://github.com/jacoborus/tender.vim.git
+[submodule "nvim/plugins/plugged/vim-lucius"]
+	path = nvim/plugins/plugged/vim-lucius
+	url = https://github.com/jonathanfilip/vim-lucius.git
