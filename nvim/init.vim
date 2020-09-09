@@ -13,6 +13,7 @@ call plug#begin('~/.config/nvim/plugins/plugged')
     Plug 'morhetz/gruvbox'
     " If you have nodejs and yarn
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+    Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " General settings.
