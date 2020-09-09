@@ -3,14 +3,16 @@ if &compatible
 endif
 
 set runtimepath+=$HOME/.config/nvim/plugins
-
-" Load Plugins.
+ 
+ " Load Plugins.
 call plug#begin('~/.config/nvim/plugins/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'jacoborus/tender.vim'
     Plug 'jonathanfilip/vim-lucius'
     Plug 'itchyny/lightline.vim'
     Plug 'morhetz/gruvbox'
+    " If you have nodejs and yarn
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 call plug#end()
 
 " General settings.
@@ -178,3 +180,7 @@ nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 " -- Setting for coc.(end) ---------- 
+"
+" MarkdownPreview
+let g:mkdp_echo_preview_url = 1
+let g:mkdp_port = '8081'
